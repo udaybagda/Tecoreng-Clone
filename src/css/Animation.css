@@ -1,0 +1,41 @@
+/* Perspective container for 3D effect */
+.mobile-menu-wrapper {
+    perspective: 850px;
+    overflow: hidden;
+  }
+  
+  /* Page flip animation */
+  @keyframes pageFlipOpen {
+    0% {
+      opacity: 0;
+      transform: perspective(850px) rotateX(-60deg);
+      transform-origin: top;
+    }
+    100% {
+      opacity: 1;
+      transform: perspective(850px) rotateX(0deg);
+      transform-origin: top;
+    }
+  }
+  
+  @keyframes pageFlipClose {
+    0% {
+      opacity: 1;
+      transform: perspective(850px) rotateX(0deg);
+      transform-origin: top;
+    }
+    100% {
+      opacity: 0;
+      transform: perspective(850px) rotateX(-60deg);
+      transform-origin: top;
+    }
+  }
+  
+  /* Apply animations */
+  .flip-page-open {
+    animation: pageFlipOpen 0.45s ease-out forwards;
+  }
+  
+  .flip-page-close {
+    animation: pageFlipClose 0.4s ease-in forwards;
+  }

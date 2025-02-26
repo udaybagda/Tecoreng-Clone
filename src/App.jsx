@@ -1,8 +1,12 @@
 import './App.css';
+
+import NavBar from './components/Navbar';
 import LandingComponent from './components/LandingPage';
+import VideoSection from './components/VideoSection';
 import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
-import NavBar from './components/Navbar';
+import SpecializationSection from './components/SpecializationSection';
+import IndustriesSection from './components/IndustriesSection';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -10,8 +14,11 @@ const App = () => {
     <>
     <NavBar />
     <LandingComponent />
+    <VideoSection />
     <HeroSection />
     <FeatureSection />
+    <SpecializationSection />
+    <IndustriesSection />
     <Footer />
     </>
   )

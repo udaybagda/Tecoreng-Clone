@@ -66,7 +66,7 @@ function NavBar() {
                 </a>
 
                 {/* Underline Effect */}
-                <span className="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#FF6347] transform scale-x-0 origin-center transition-transform duration-600 group-hover:scale-x-100"></span>
+                <span className="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#FF6347] transform scale-x-0 origin-left transition-transform duration-600 group-hover:scale-x-100"></span>
 
                 {/* Dropdown Menu */}
                 {item.subItems && isDropdownOpen && (

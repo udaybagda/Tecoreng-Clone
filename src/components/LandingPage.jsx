@@ -24,9 +24,9 @@ function LandingPage() {
   const isMobile = windowWidth < 768; // Change image based on screen size
 
   return (
-    <div className="bg-[#01132e] min-h-[65vh] md:min-h-screen pb-3 md:p-2">
+    <div className="bg-[#01132e] min-h-[65vh] md:min-h-screen pb-3 md:p-2 ">
       <div
-        className="relative md:mx-15 md:h-185 flex flex-col md:flex-row md:items-center md:justify-start md:pl-20 px-4 md:px-0 sm:flex-row-reverse"
+        className="relative md:mx-15 md:h-185 flex flex-col md:flex-row md:items-center md:justify-start md:pl-20 px-4 md:px-0 sm:flex-row-reverse "
         style={{
           backgroundImage: isMobile ? "none" : `url(${laptop})`,
           backgroundSize: "cover",

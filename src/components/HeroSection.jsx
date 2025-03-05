@@ -50,14 +50,30 @@ const HeroSection = () => {
               {`
                 @keyframes moveBall {
                     0% { transform: translate(166px, 134px) rotate(0deg); }
-                    25% { transform: translate(76px, 164px) rotate(900deg); }
+                    5% { transform: translate(141px, 109px) rotate(180deg); }
+                    10% { transform: translate(116px, 89px) rotate(360deg); }
+                    15% { transform: translate(91px, 91px) rotate(540deg); }
+                    20% { transform: translate(66px, 114px) rotate(720deg); }
+                    25% { transform: translate(51px, 139px) rotate(900deg); }
+                    30% { transform: translate(76px, 164px) rotate(1080deg); }
+                    35% { transform: translate(101px, 182px) rotate(1260deg); }
+                    40% { transform: translate(126px, 174px) rotate(1440deg); }
+                    45% { transform: translate(151px, 149px) rotate(1620deg); }
                     50% { transform: translate(176px, 124px) rotate(1800deg); }
-                    75% { transform: translate(256px, 164px) rotate(2700deg); }
+                    55% { transform: translate(201px, 99px) rotate(1980deg); }
+                    60% { transform: translate(226px, 84px) rotate(2160deg); }
+                    65% { transform: translate(251px, 99px) rotate(2340deg); }
+                    70% { transform: translate(276px, 124px) rotate(2520deg); }
+                    75% { transform: translate(271px, 149px) rotate(2700deg); }
+                    80% { transform: translate(246px, 174px) rotate(2880deg); }
+                    85% { transform: translate(221px, 182px) rotate(3060deg); }
+                    90% { transform: translate(196px, 164px) rotate(3240deg); }
+                    95% { transform: translate(171px, 139px) rotate(3420deg); }
                     100% { transform: translate(166px, 134px) rotate(3600deg); }
                 }
 
                 .animate-infinity-path {
-                  animation: moveBall 0.001s infinite linear;
+                  animation: moveBall 0.01s infinite linear;
                   position: absolute;
                   top: 0;
                   left: 0;
